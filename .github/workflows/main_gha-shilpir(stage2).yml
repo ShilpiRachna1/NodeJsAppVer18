@@ -56,7 +56,7 @@ jobs:
         id: deploy-to-webapp
         uses: azure/webapps-deploy@v2
         with:
-          app-name: 'gha-shilpir'
+          app-name: 'gha-shilpir-stage2'
           slot-name: 'stage2'
           package: .
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_7E6830A49087435BBBAA82C29A4A2F91 }}
