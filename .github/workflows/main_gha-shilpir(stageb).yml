@@ -54,7 +54,7 @@ jobs:
       
       - name: 'Deploy to Azure Web App'
         id: deploy-to-webapp
-        uses: azure/webapps-deploy@shilpirachna1/slotfix1
+        uses: azure/webapps-deploy@shilpirachna1/slotrel
         with:
           app-name: 'gha-shilpir'
           slot-name: 'stageb'
